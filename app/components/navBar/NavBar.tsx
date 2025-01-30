@@ -1,8 +1,13 @@
+import MenuLink from "../menuLink/MenuLink";
 
 export default function NavBar() {
     return(
         <>
-        <p>NavBar</p>
+        <nav>
+            <MenuLink/>
+            <div>SearchBar</div>
+        </nav>
+
         </>
     );
 }

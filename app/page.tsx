@@ -1,8 +1,10 @@
-export default function Home() {
+import Home from "./home/page";
+
+export default function Start() {
   return (
     <>
       <section className="container">
-        <h1>Aula 01 de React</h1>
+        <Home/>
        
       </section>
     </>

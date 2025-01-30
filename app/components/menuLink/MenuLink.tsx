@@ -2,7 +2,12 @@
 export default function MenuLink() {
     return(
         <>
-        <p>MenuLink</p>
+        <div>
+            Home | 
+            Galeria |
+            Contato |
+            Algo
+        </div>
         </>
     );
 }
