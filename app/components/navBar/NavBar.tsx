@@ -5,7 +5,7 @@ export default function NavBar() {
         <>
         <nav>
             <MenuLink/>
-            <div>SearchBar</div>
+            
         </nav>
 
         </>
