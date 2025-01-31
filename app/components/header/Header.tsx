@@ -1,3 +1,4 @@
+import NavBar from "../navBar/NavBar";
 
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
         <div className="text-white font-bold text-2xl md:text-3xl lg:text-4xl tracking-tight">          
           <span className="mr-2">React</span><span className="text-yellow-300"> & Next.Js</span> 
         </div>
-        
+        <NavBar/>
       </div>
     </header>
   );
