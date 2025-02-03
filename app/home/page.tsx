@@ -1,3 +1,4 @@
+import TextEditor from "../components/hookPersonalizado/TextEditor";
 import StateCounter from "../components/state/StateCounter";
 import MeuComponente from "../components/stateEffect/MeuComponente";
 
@@ -10,6 +11,9 @@ export default function Home() {
             <StateCounter/>
             <hr/>
             <MeuComponente/>
+            <hr/>
+            <br/>            
+            <TextEditor/>
         </section>
         </>
     );
