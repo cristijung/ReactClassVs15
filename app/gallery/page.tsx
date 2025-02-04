@@ -37,9 +37,7 @@ export default function Gallery() {
               <p className="text-white text-lg font-bold">Star Wars</p>
             </div>
           </div>
-        </div>
-        {/* <h2>{Content.tituloNovidade}</h2>
-        <p>{Content.textoNovidade}</p> */}       
+        </div>             
       </div>
     </section>
     <hr/>
