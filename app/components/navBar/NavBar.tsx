@@ -9,6 +9,7 @@ export default function NavBar() {
         <MenuLink texto="Galeria" href="/gallery" />
         <MenuLink texto="Documentos" href="/documents" />
         <MenuLink texto="Contato" href="/contact" />
+        <MenuLink texto="Hidratação" href="/hidratation" />
        
       </nav>
     </>
