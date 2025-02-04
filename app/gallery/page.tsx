@@ -2,6 +2,7 @@
 import Image from "next/image";
 import StarWarsUm from "../../public/sw.jpg";
 import StarWarsDois from "../../public/sw2.png";
+import ImagemOtimizada from "../components/imagens/ImagemOtimizda";
 
 export default function Gallery() {
   return (
@@ -38,9 +39,11 @@ export default function Gallery() {
           </div>
         </div>
         {/* <h2>{Content.tituloNovidade}</h2>
-        <p>{Content.textoNovidade}</p> */}
+        <p>{Content.textoNovidade}</p> */}       
       </div>
     </section>
+    <hr/>
+    <ImagemOtimizada/>
     </>
   );
 }
